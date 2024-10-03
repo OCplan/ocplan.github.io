@@ -3,7 +3,7 @@ name: Deploy Blazor WASM to GitHub Page
 # Controls when the action will run
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
