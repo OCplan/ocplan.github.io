@@ -47,4 +47,5 @@ jobs:
       with:
         branch: gh-pages
         folder: release/wwwroot
+        token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         
